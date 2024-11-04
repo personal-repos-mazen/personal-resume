@@ -10,8 +10,9 @@ def define_variable(name, value):
 def retrieve_value(key, json_config):
     value = json_config[key]
     
-    if isinstance(value, list) and not isinstance(value[0], dict):
-        return ', '.join(value)
+    if isinstance(value, list):
+        if len(value) <= 0: return ''
+        if not isinstance(value[0], dict): return '{' + '}, {'.join(value) + '}' 
 
     return value
 
@@ -79,5 +80,6 @@ def write_latex_resume(latex):
     with open('./resume.tex', 'w') as file:
         file.write(latex)
 
-latex = load_content()
-write_latex_resume(latex)
+if __name__ == '__main__':
+    latex = load_content()
+    write_latex_resume(latex)

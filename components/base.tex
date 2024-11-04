@@ -51,37 +51,27 @@
   }
 }
 
-\newcommand{\classesList}[4]{
-    \item\small{
-        {#1 #2 #3 #4 \vspace{-2pt}}
-  }
-}
-
 \newcommand{\resumeSubheading}[4]{
   \vspace{-2pt}\item
     \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
-      \ifx#1\empty\else
-      \ifx#2\empty\else 
-      \textbf{#1} & \textbf{\small #2} \\ \fi\fi
+      \ifx#1\empty
+        \ifx#2\empty\else
+          \textbf{#1} & \textbf{\small #2} \\ 
+        \fi
+      \else
+        \textbf{#1} & \textbf{\small #2} \\
+      \fi
 
-      \ifx#3\empty\else
-      \ifx#4\empty\else 
-      \textit{\small#3} & \textit{\small #4}  \\ \fi\fi
-    \end{tabular*}\vspace{-7pt}
-}
+      \ifx#3\empty
+        \ifx#4\empty
+        \else
+          \textit{\small#3} & \textit{\small #4}  \\ 
+        \fi
+      \else
+        \textit{\small#3} & \textit{\small #4}  \\ 
+      \fi
+    \end{tabular*}\vspace{-12pt} 
 
-\newcommand{\resumeSubSubheading}[2]{
-    \item
-    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
-      \textit{\small#1} & \textit{\small #2} \\
-    \end{tabular*}\vspace{-7pt}
-}
-
-\newcommand{\resumeProjectHeading}[2]{
-    \item
-    \begin{tabular*}{1.001\textwidth}{l@{\extracolsep{\fill}}r}
-      \small#1 & \textbf{\small #2}\\
-    \end{tabular*}\vspace{-7pt}
 }
 
 \newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
