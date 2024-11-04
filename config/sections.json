@@ -1,0 +1,27 @@
+[
+    {
+        "sectionName": "Experience",
+        "subheadings": [
+            {
+                "company": "",
+                "period": "",
+                "position": "",
+                "location": "",
+                "resumeItems": [
+                    "Developed a service to automatically perform a set of unit tests daily on a product in development.",
+                    "Incorporated scripts using Python and PowerShell to aggregate XML test results."
+                ]
+            },
+            {
+                "company": "MSFT",
+                "period": "May 2002 -- June 2003",
+                "position": "Software Engineer",
+                "location": "Redmond, WA",
+                "resumeItems": [
+                    "Developed a service to automatically perform a set of unit tests daily on a product in development.",
+                    "Incorporated scripts using Python and PowerShell to aggregate XML test results."
+                ]
+            }
+        ]
+    }
+]

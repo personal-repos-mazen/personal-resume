@@ -15,6 +15,7 @@
 \usepackage{multicol}
 \setlength{\multicolsep}{-3.0pt}
 \setlength{\columnsep}{-1pt}
+\usepackage{pgffor}
 \input{glyphtounicode}
 
 
@@ -59,8 +60,13 @@
 \newcommand{\resumeSubheading}[4]{
   \vspace{-2pt}\item
     \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
-      \textbf{#1} & \textbf{\small #2} \\
-      \textit{\small#3} & \textit{\small #4} \\
+      \ifx#1\empty\else
+      \ifx#2\empty\else 
+      \textbf{#1} & \textbf{\small #2} \\ \fi\fi
+
+      \ifx#3\empty\else
+      \ifx#4\empty\else 
+      \textit{\small#3} & \textit{\small #4}  \\ \fi\fi
     \end{tabular*}\vspace{-7pt}
 }
 
@@ -89,3 +95,4 @@
 \newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
 
 \begin{document}
+
