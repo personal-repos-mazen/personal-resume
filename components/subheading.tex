@@ -1,8 +1,11 @@
 \resumeSubheading
-  {\company}{\period}
-  {\position}{\location}
-  \resumeItemListStart
-    \foreach \item in \items {
-      \resumeItem{\item} 
-    }
-  \resumeItemListEnd
+{\company}{\period}
+{\position}{\location}
+\resumeItemListStart
+
+\foreach \i in \resumeItems {
+  \resumeItem{\i}
+}
+
+\resumeItemListEnd
+
