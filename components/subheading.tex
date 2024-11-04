@@ -1,11 +1,13 @@
 \resumeSubheading
 {\company}{\period}
 {\position}{\location}
-\resumeItemListStart
 
+\if\resumeItems\empty\else
+
+\resumeItemListStart
 \foreach \i in \resumeItems {
   \resumeItem{\i}
 }
-
 \resumeItemListEnd
 
+\fi
