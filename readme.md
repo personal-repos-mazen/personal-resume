@@ -4,7 +4,7 @@ This project abstracts LaTeX resume creation into JSON configuration definitions
 
 ## Template
 
-The resume template is defined through generic `.tex` components in the [components folder](./components/). These are used as the building blocks for the candidate's final resume. The components are meant to use minimal static values and rely on LaTeX variable definitions to populate the resume sections. These variable values are defined in our JSON configs. 
+The resume template is defined through generic `.tex` components in the [components folder](./src/components/). These are used as the building blocks for the candidate's final resume. The components are meant to use minimal static values and rely on LaTeX variable definitions to populate the resume sections. These variable values are defined in our JSON configs. 
 
 ## JSON Configuration
 
@@ -51,19 +51,18 @@ If any of the fields are not required, they need to be defined and can be kept e
 ```
 ## Python Script
 
-[generate_resume.py](./generate_resume.py) is the main script that glues all the components and their respective configurations together. It iterates over the configuration files, translates them into variable definitions in LaTeX, and adds all the components to one single file called `resume.tex`. 
+[generate_resume.py](./src/generate_resume.py) is the main script that glues all the components and their respective configurations together. It iterates over the configuration files, translates them into variable definitions in LaTeX, and adds all the components to one single file called `resume.tex`. 
 
 ## Create Your Resume
 
 ### Pre-requisites
-- Python3
-- LaTeX
+- [Docker Desktop](https://www.docker.com/products/docker-desktop/)
 
-> This repo will be containerized at a later point. For now, you have to deal with this mediocre setup :)
+### Steps
 
 1. Populate [JSON configs as defined above](#json-configuration).
-2. Run `python3 generate_resume.py`
-3. Run `pdflatex resume.tex`
+2. Run `docker compose up`
+3. Find `resume.pdf` in `[./out folder](./out)`
 
 ## License
 

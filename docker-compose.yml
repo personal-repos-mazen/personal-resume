@@ -1,0 +1,9 @@
+services:
+  resume_generator:
+    build: 
+      context: .
+    environment:
+      - APP_ENV=production
+    volumes:
+      - .:/usr/local/resume
+

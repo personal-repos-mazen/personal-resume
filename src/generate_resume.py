@@ -1,4 +1,8 @@
 import json
+import os
+
+config_folder = os.getenv('CONFIGURATION_PATH') or '../config'
+components_folder = os.getenv('COMPONENTS_PATH') or './components'
 
 def load_data(filename, is_json=False):
     with open(filename, "r") as file:
@@ -32,12 +36,12 @@ def define_variables(json_config, filter=lambda key, value: True):
 
 def load_heading(heading_config):
     latex = define_variables(heading_config)
-    latex += load_data('./components/heading.tex')
+    latex += load_data(components_folder + '/heading.tex')
     return latex
 
 def load_subheading(subheading_config):
     latex = define_variables(subheading_config)
-    latex += load_data('./components/subheading.tex')
+    latex += load_data(components_folder + '/subheading.tex')
     return latex
 
 def load_subheadings(section_config):
@@ -50,9 +54,9 @@ def load_subheadings(section_config):
 
 def load_section(section_config):
     latex = define_variables(section_config, lambda key, value: key == "sectionName")
-    latex += load_data('./components/section.tex')
+    latex += load_data(components_folder + '/section.tex')
     latex += load_subheadings(section_config)
-    latex += load_data('./components/sectionEnd.tex')
+    latex += load_data(components_folder + '/sectionEnd.tex')
     return latex
 
 def load_sections(body_config):
@@ -65,14 +69,14 @@ def load_sections(body_config):
 
 def load_content():
     latex = ''
-    latex += load_data('./components/base.tex')
+    latex += load_data(components_folder + '/base.tex')
     
-    heading_config = load_data('./config/heading.json', True)
+    heading_config = load_data(config_folder + '/heading.json', True)
     latex += load_heading(heading_config)
 
-    body_config = load_data('./config/sections.json', True)
+    body_config = load_data(config_folder + '/sections.json', True)
     latex += load_sections(body_config)
-    latex += load_data('./components/end.tex')
+    latex += load_data(components_folder + '/end.tex')
 
     return latex
 
