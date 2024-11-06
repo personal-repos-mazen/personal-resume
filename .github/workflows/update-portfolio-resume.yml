@@ -35,4 +35,5 @@ jobs:
           git config user.email "actions@github.com"
           git add public/resume.pdf
           git commit -m "Update resume"
+          git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/personal-repos-mazen/Portfolio-Website.git
           git push
