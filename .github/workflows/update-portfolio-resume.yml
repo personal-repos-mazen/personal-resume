@@ -18,6 +18,7 @@ jobs:
 
       - name: Run Docker container to generate resume
         run: |
+          chmod +x ./compile_resume.sh
           docker run -v .:/usr/local/resume resume-builder
 
       - name: Clone target repository
