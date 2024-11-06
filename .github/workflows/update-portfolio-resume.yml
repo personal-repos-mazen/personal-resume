@@ -24,7 +24,7 @@ jobs:
 
       - name: Clone target repository
         run: |
-          git clone https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/personal-repos-mazen/Portfolio-Website.git Portfolio-Website
+          git clone https://x-access-token:${{ secrets.TARGET_REPO_PAT }}@github.com/personal-repos-mazen/Portfolio-Website.git Portfolio-Website
 
       - name: Copy generated resume to target repository path
         run: |
@@ -35,9 +35,9 @@ jobs:
       - name: Commit and push to target repository
         run: |
           cd Portfolio-Website
-          git config --global user.email "mazenbahgat@outlook.com"
-          git config --global user.name "mbahgatTech"
+          git config user.name "GitHub Actions"
+          git config user.email "actions@github.com"
           git add public/resume.pdf
           git commit -m "Update resume"
-          git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/personal-repos-mazen/Portfolio-Website.git
+          git remote set-url origin https://x-access-token:${{ secrets.TARGET_REPO_PAT }}@github.com/personal-repos-mazen/Portfolio-Website.git
           git push
