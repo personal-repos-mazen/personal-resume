@@ -27,7 +27,7 @@ jobs:
 
       - name: Copy generated resume to target repository path
         run: |
-          echo pdf > resume.pdf
+          echo pdf > ./out/resume.pdf
           cp ./out/resume.pdf Portfolio-Website/public/resume.pdf
 
       - name: Commit and push to target repository
