@@ -34,6 +34,8 @@ jobs:
       - name: Commit and push to target repository
         run: |
           cd Portfolio-Website
+          git git config --global user.email "mazenbahgat@outlook.com"
+          git config --global user.name "mbahgatTech"
           git add public/resume.pdf
           git commit -m "Update resume"
           git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/personal-repos-mazen/Portfolio-Website.git
