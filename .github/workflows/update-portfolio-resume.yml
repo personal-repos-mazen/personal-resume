@@ -27,6 +27,7 @@ jobs:
 
       - name: Copy generated resume to target repository path
         run: |
+          mkdir out
           echo pdf > ./out/resume.pdf
           cp ./out/resume.pdf Portfolio-Website/public/resume.pdf
 
