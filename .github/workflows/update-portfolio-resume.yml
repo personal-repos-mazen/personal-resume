@@ -13,9 +13,6 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v3
 
-      - name: Set up Docker
-        uses: actions/setup-docker@v2
-
       - name: Build Docker image
         run: docker build -t resume-builder .
 
