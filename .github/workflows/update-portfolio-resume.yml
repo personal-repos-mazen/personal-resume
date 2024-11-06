@@ -13,26 +13,26 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v3
 
-      - name: Build Docker image
-        run: docker build -t resume-builder .
+      # - name: Build Docker image
+      #   run: docker build -t resume-builder .
 
-      - name: Run Docker container to generate resume
-        run: |
-          chmod +x ./compile_resume.sh
-          docker run -v .:/usr/local/resume resume-builder
+      # - name: Run Docker container to generate resume
+      #   run: |
+      #     chmod +x ./compile_resume.sh
+      #     docker run -v .:/usr/local/resume resume-builder
 
       - name: Clone target repository
         run: |
           git clone https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/personal-repos-mazen/Portfolio-Website.git Portfolio-Website
 
       - name: Copy generated resume to target repository path
-        run: cp ./out/resume.pdf Portfolio-Website/public/resume.pdf
+        run: |
+          echo pdf > resume.pdf
+          cp ./out/resume.pdf Portfolio-Website/public/resume.pdf
 
       - name: Commit and push to target repository
         run: |
           cd Portfolio-Website
-          git config user.name "GitHub Actions"
-          git config user.email "actions@github.com"
           git add public/resume.pdf
           git commit -m "Update resume"
           git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/personal-repos-mazen/Portfolio-Website.git
