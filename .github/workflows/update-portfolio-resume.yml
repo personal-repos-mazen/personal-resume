@@ -1,0 +1,40 @@
+name: Compile and Deploy Resume
+
+on:
+  push:
+    branches:
+      - ci
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Set up Docker
+        uses: actions/setup-docker@v2
+
+      - name: Build Docker image
+        run: docker build -t resume-builder .
+
+      - name: Run Docker container to generate resume
+        run: |
+          docker run --rm -v ${{ github.workspace }}:/out resume-builder
+
+      - name: Clone target repository
+        run: |
+          git clone https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/personal-repos-mazen/Portfolio-Website.git Portfolio-Website
+
+      - name: Copy generated resume to target repository path
+        run: cp /output/path/to/generated_resume.pdf target-repo/path/to/destination/resume.pdf
+
+      - name: Commit and push to target repository
+        run: |
+          cd Portfolio-Website
+          git config user.name "GitHub Actions"
+          git config user.email "actions@github.com"
+          git add public/resume.pdf
+          git commit -m "Update resume"
+          git push
