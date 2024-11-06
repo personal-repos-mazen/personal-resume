@@ -61,8 +61,8 @@ If any of the fields are not required, they need to be defined and can be kept e
 ### Steps
 
 1. Populate [JSON configs as defined above](#json-configuration).
-2. Run `docker compose up`
-3. Find `resume.pdf` in `[./out folder](./out)`
+2. Run `docker compose up`.
+3. Find `resume.pdf` in a newly created `out` folder.
 
 ## License
 
