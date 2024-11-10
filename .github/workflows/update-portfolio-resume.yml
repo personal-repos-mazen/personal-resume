@@ -14,16 +14,16 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v3
 
-      - name: Build Docker image
-        run: docker build -t resume-builder .
+      # - name: Build Docker image
+      #   run: docker build -t resume-builder .
 
-      - name: Run Docker container to generate resume
-        run: |
-          chmod +x ./compile_resume.sh
-          docker run -v .:/usr/local/resume resume-builder
+      # - name: Run Docker container to generate resume
+      #   run: |
+      #     chmod +x ./compile_resume.sh
+      #     docker run -v .:/usr/local/resume resume-builder
 
       - name: Deploy Resume to Target Repo
-        uses: ./.github/actions/update-target-repo.yml
+        uses: .github/actions/update-target-repo.yml
         with: 
           target-repo: https://x-access-token:${{ secrets.TARGET_REPO_PAT }}@github.com/${{ vars.GIITHUB_OWNER_REPO }}.git
           repo-resume-path: ${{ vars.REPO_RESUME_PATH }}
