@@ -21,6 +21,7 @@ jobs:
         run: |
           chmod +x ./compile_resume.sh
           docker run -v .:/usr/local/resume resume-builder
+          sudo chown -R $USER:$USER ./out
 
       - name: Deploy Resume to Target Repo
         uses: ./.github/actions/update-target-repo
