@@ -13,14 +13,17 @@ runs:
       uses: actions/checkout@v3
 
     - name: Clone target repository
+      shell: bash
       run: |
         git clone ${{ inputs.target-repo }} portfolio
 
     - name: Copy generated resume to target repository path
+      shell: bash
       run: |
         cp ./out/resume.pdf portfolio/${{ inputs.repo-resume-path }}
 
     - name: Commit and push to target repository
+      shell: bash
       run: |
         cd portfolio
         git config user.name "GitHub Actions"
