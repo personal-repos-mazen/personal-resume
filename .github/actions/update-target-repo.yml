@@ -1,0 +1,28 @@
+name: update-target-repo
+description: Update Target Repo with Compiled Resume
+inputs:
+  target-repo:
+    required: true
+  repo-resume-path:
+    required: true
+
+runs: 
+  using: "composite"
+  steps:
+    - name: Clone target repository
+      run: |
+        git clone ${{ inputs.target-repo }} portfolio
+
+    - name: Copy generated resume to target repository path
+      run: |
+        cp ./out/resume.pdf portfolio/${{ inputs.repo-resume-path }}
+
+    - name: Commit and push to target repository
+      run: |
+        cd portfolio
+        git config user.name "GitHub Actions"
+        git config user.email "actions@github.com"
+        git add .
+        git commit -m "Update resume"
+        git remote set-url origin ${{ inputs.target-repo }}
+        git push
