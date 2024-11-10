@@ -20,8 +20,8 @@ runs:
     - name: Copy generated resume to target repository path
       shell: bash
       run: |-
-        chmod +xwr ./out/resume.pdf
-        cp ./out/resume.pdf portfolio/${{ inputs.repo-resume-path }}
+        chmod +xwr ${{ github.workspace }}/out/resume.pdf
+        cp ${{ github.workspace }}/out/resume.pdf portfolio/${{ inputs.repo-resume-path }}
 
     - name: Commit and push to target repository
       shell: bash
