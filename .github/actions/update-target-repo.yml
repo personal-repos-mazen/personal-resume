@@ -9,6 +9,9 @@ inputs:
 runs: 
   using: "composite"
   steps:
+    - name: Checkout repository
+      uses: actions/checkout@v3
+
     - name: Clone target repository
       run: |
         git clone ${{ inputs.target-repo }} portfolio
