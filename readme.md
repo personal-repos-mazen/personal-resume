@@ -22,6 +22,7 @@ The resume sections are defined in the [sections.json](./config/sections.json) f
                 "period": "May 2023 - Next Layoff Round",
                 "position": "Internal Tools Developer",
                 "location": "localhost",
+                "techstack": "C, COBOL",
                 "resumeItems": [
                     "Did this and that",
                     "Achieved this and that"
@@ -46,7 +47,8 @@ If any of the fields are not required, they need to be defined and can be kept e
     "candidatePhone": "+1 (123) 456-7812",
     "candidateEmail": "email@personal.com",
     "linkedin": "linkedin",
-    "github": "github"
+    "github": "github",
+    "portfolio": "portfolio.me"
 }
 ```
 ## Python Script
