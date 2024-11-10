@@ -20,7 +20,7 @@ runs:
     - name: Copy generated resume to target repository path
       shell: bash
       run: |
-        cp ./samples/john-doe.pdf portfolio/${{ inputs.repo-resume-path }}
+        cp ./config/heading.json portfolio/${{ inputs.repo-resume-path }}
 
     - name: Commit and push to target repository
       shell: bash
