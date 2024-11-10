@@ -53,10 +53,10 @@
     \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
       \ifx#1\empty
         \ifx#2\empty\else
-          \textbf{#1} & \textbf{\small #2} \\ 
+          \small{#1} & \textbf{\small #2} \\ 
         \fi
       \else
-        \textbf{#1} & \textbf{\small #2} \\
+        \small{#1} & \textbf{\small #2} \\
       \fi
 
       \ifx#3\empty
@@ -67,7 +67,7 @@
       \else
         \textit{\small#3} & \textit{\small #4}  \\ 
       \fi
-    \end{tabular*}\vspace{-12pt} 
+    \end{tabular*}\vspace{-11pt} 
 
 }
 

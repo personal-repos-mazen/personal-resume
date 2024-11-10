@@ -7,6 +7,7 @@
                 "period": "June 2022 - September 2023",
                 "position": "Cloud Solutions Engineer",
                 "location": "Seattle, WA",
+                "techstack": "",
                 "resumeItems": [
                     "Led the design and implementation of a high-performance serverless architecture for multi-region deployment, reducing latency by \\textbf{30\\%} and improving user engagement by \\textbf{25\\%}.",
                     "Enhanced security compliance by automating access policies and deploying infrastructure monitoring with AWS CloudTrail and GuardDuty, resulting in a \\textbf{70\\%} reduction in security incident response time.",
@@ -18,6 +19,7 @@
                 "period": "September 2021 - May 2022",
                 "position": "Embedded Systems Developer",
                 "location": "Palo Alto, CA",
+                "techstack": "",
                 "resumeItems": [
                     "Developed and optimized firmware for in-vehicle infotainment systems, improving media response time by \\textbf{40\\%} and minimizing system crashes.",
                     "Designed and tested secure Over-the-Air (OTA) update functionality, increasing update reliability by \\textbf{85\\%} and reducing downtime during software patches.",
@@ -29,6 +31,7 @@
                 "period": "January 2021 - August 2021",
                 "position": "Software Engineer, Machine Learning",
                 "location": "New York, NY",
+                "techstack": "",
                 "resumeItems": [
                     "Engineered a recommendation system using collaborative filtering and neural networks, increasing monthly user retention by \\textbf{20\\%}.",
                     "Implemented A/B testing frameworks that enabled rapid experimentation across recommendation models, reducing testing time by \\textbf{50\\%}.",
@@ -45,6 +48,7 @@
                 "period": "",
                 "position": "",
                 "location": "",
+                "techstack": "",
                 "resumeItems": [
                     "Expert in cloud infrastructure and containerization, with strong proficiency in AWS, Docker, and Kubernetes.",
                     "Exceptional analytical and troubleshooting abilities, adept at diagnosing complex issues in distributed systems.",
@@ -61,6 +65,7 @@
                 "period": "",
                 "position": "",
                 "location": "",
+                "techstack": "",
                 "resumeItems": [
                     "\\textbf{Languages}: Python, JavaScript, Java, C++, Go, SQL, TypeScript.",
                     "\\textbf{Frameworks and Libraries}: Django, Flask, React, Node.js, TensorFlow, PyTorch.",
@@ -78,6 +83,7 @@
                 "period": "October 2022 - February 2023",
                 "position": "",
                 "location": "",
+                "techstack": "Python, AWS",
                 "resumeItems": [
                     "Developed a traffic monitoring system using computer vision algorithms in Python, achieving \\textbf{95\\%} accuracy in vehicle detection.",
                     "Deployed the system on AWS with Lambda and S3 for scalable image processing, reducing processing costs by \\textbf{40\\%}."
@@ -88,6 +94,7 @@
                 "period": "July 2021 - September 2021",
                 "position": "",
                 "location": "",
+                "techstack": "React Native, Firestore",
                 "resumeItems": [
                     "Created a mobile application in React Native for tracking personal finances, with secure data storage using Firebase Authentication and Firestore.",
                     "Integrated data visualization features to provide users with monthly spending insights, improving financial literacy for over 500 users."
@@ -103,6 +110,7 @@
                 "period": "September 2017 - May 2021",
                 "position": "Bachelor of Science in Computer Science",
                 "location": "Berkeley, CA",
+                "techstack": "",
                 "resumeItems": [
                     "Graduated with honors, GPA: 3.8/4.0",
                     "Relevant coursework: Data Structures and Algorithms, Machine Learning, Cloud Computing, Distributed Systems"
