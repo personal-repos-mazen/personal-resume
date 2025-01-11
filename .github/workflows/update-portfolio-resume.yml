@@ -15,27 +15,25 @@ jobs:
         uses: actions/checkout@v3
 
       - name: Build Docker image
-        run: docker build -t resume-builder .
+        run: docker build -t resume-builder ${{ github.workspace }}
 
       - name: Run Docker container to generate resume
         run: |
           chmod +x ./compile_resume.sh
-          docker run -v .:/usr/local/resume resume-builder
-
-      - name: Clone target repository
+          docker run -v ${{ github.workspace }}:/usr/local/resume resume-builder
+          sudo chown -R $USER:$USER ${{ github.workspace }}/out
+      
+      - name: Set commit message
         run: |
-          git clone https://x-access-token:${{ secrets.TARGET_REPO_PAT }}@github.com/mbahgatTech/Portfolio-Website.git Portfolio-Website
+          if [ "${{ vars.GIITHUB_OWNER_REPO }}" == "${{ github.repository }}" ]; then
+            echo "COMMIT_MESSAGE=Update resume [skip ci]" >> $GITHUB_ENV
+          else
+            echo "COMMIT_MESSAGE=Update resume" >> $GITHUB_ENV
+          fi
 
-      - name: Copy generated resume to target repository path
-        run: |
-          cp ./out/resume.pdf Portfolio-Website/public/resume.pdf
-
-      - name: Commit and push to target repository
-        run: |
-          cd Portfolio-Website
-          git config user.name "GitHub Actions"
-          git config user.email "actions@github.com"
-          git add public/resume.pdf
-          git commit -m "Update resume"
-          git remote set-url origin https://x-access-token:${{ secrets.TARGET_REPO_PAT }}@github.com/mbahgatTech/Portfolio-Website.git
-          git push
+      - name: Deploy Resume to Target Repo
+        uses: ./.github/actions/update-target-repo
+        with: 
+          target-repo: https://x-access-token:${{ secrets.TARGET_REPO_PAT }}@github.com/${{ vars.GIITHUB_OWNER_REPO }}.git
+          repo-resume-path: ${{ vars.REPO_RESUME_PATH }}
+          commit-message: ${{ env.COMMIT_MESSAGE }}

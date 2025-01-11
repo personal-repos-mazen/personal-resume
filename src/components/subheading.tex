@@ -1,8 +1,20 @@
-\resumeSubheading
-{\company}{\period}
-{\position}{\location}
+\ifx\techstack\empty
+  \ifx\company\empty
+    \resumeSubheading
+    {\company}{\period}
+    {\position}{\location}
+  \else
+    \resumeSubheading
+    {\textbf{\company}}{\period}
+    {\position}{\location}
+  \fi
+\else
+  \resumeSubheading
+  {\textbf{\company} $|$ \emph\techstack}{\period}
+  {\position}{\location}
+\fi
 
-\if\resumeItems\empty\else
+\ifx\resumeItems\empty\else
 
 \resumeItemListStart
 \foreach \i in \resumeItems {
