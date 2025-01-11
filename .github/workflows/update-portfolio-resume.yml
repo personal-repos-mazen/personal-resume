@@ -7,6 +7,7 @@ on:
 
 jobs:
   build-and-deploy:
+    if: github.actor != 'actions-user'
     runs-on: ubuntu-latest
     permissions: write-all
 
