@@ -68,10 +68,6 @@ If any of the fields are not required, they need to be defined and can be kept e
 
 ## CI/CD Pipeline
 
-This repo comes with a configurable pipeline using repository actions' secrets and variables. This pipeline aims to build and push your resume to a different repository. This different repository can be your portfolio website or just a place you keep your most up to date version of your resume. In my case, I have the pipeline pushing the resume to my [portfolio website repo](https://github.com/mbahgatTech/Portfolio-Website) 
-
-## CI/CD Pipeline
-
 This repo comes with a configurable pipeline using repository actions' secrets and variables. This pipeline aims to build and push your resume to a different repository. This different repository can be your portfolio website or just a place you keep your most up-to-date version of your resume. 
 
 In my personal fork, I have the pipeline pushing the resume to my [portfolio website repo](https://github.com/mbahgatTech/Portfolio-Website) which itself has a pipeline that deploys my website to Vercel. Now, if I change something in my configuration and push it to master branch, my website will have the latest resume.
