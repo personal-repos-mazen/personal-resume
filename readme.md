@@ -86,7 +86,7 @@ In my personal fork, I have the pipeline pushing the resume to my [portfolio web
    - Go to the "Settings" tab of your forked repository.
    - Navigate to "Secrets and variables" > "Actions".
    - Add the following variables:
-     - `GITHUB_OWNER_REPO`: The owner and repository name of the target repository (e.g., `username/repo`).
+     - `GIITHUB_OWNER_REPO`: The owner and repository name of the target repository (e.g., `username/repo`).
      - `REPO_RESUME_PATH`: The path in the target repository where the resume will be stored (e.g., `public/resume.pdf`).
 
 4. **Run the Pipeline**:
