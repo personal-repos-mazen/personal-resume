@@ -50,7 +50,7 @@
                     "Effective communication, interpersonal and teamwork skills.",
                     "Fluent in English and Arabic."
                 ]
-            }            
+            }
         ]
     },
     {
@@ -62,11 +62,11 @@
                 "position": "",
                 "location": "",
                 "resumeItems": [
-                    "\\textbf{Languages}: C, C\\# (.NET), Java (Spring Boot), HTML, CSS, JavaScript (NodeJS, NextJS, React Native), Python, Batch, YAML, JSON, XML.",
-                    "\\textbf{Tools}: MongoDB, Kafka, Dataverse, Power Apps, Power Automate, Dynamics 365, REST APIs, Docker, Azure.",
+                    "\\textbf{Languages}: C, C\\# (.NET), Java (Spring Boot), JavaScript (NodeJS, NextJS, React Native), Python, Batch, YAML, JSON, XML.",
+                    "\\textbf{Tools}: MongoDB, Event-Driven (Kafka, Azure Service Bus), Power Platform, REST APIs, Docker, Azure.",
                     "\\textbf{Techniques}: System Architecture, Software Integration, SOLID Design Patterns, Optimization, Agile."
                 ]
-            }            
+            }
         ]
     },
     {
@@ -101,7 +101,7 @@
                     "Developed an automation web bot using the Selenium API with Python.",
                     "Automated the registration of planned courses on the University of Guelph website."
                 ]
-            }  
+            }
         ]
     },
     {
@@ -113,7 +113,7 @@
                 "position": "Bachelor of Computing, Honors Co-op Major Software Engineering Minor Marketing",
                 "location": "Guelph, ON",
                 "resumeItems": []
-            }            
+            }
         ]
     }
 ]
