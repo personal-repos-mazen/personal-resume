@@ -1,10 +1,10 @@
 {
-    "candidateFirstName": "John",
-    "candidateLastName": "Doe",
-    "candidateAddress": "123 Main St, Hometown, Country",
-    "candidatePhone": "(123) 456-7890",
-    "candidateEmail": "john.doe@example.com",
-    "linkedin": "john-doe",
-    "github": "johndoe",
-    "portfolio": "johndoe.com"
+    "candidateFirstName": "Mazen",
+    "candidateLastName": "Bahgat",
+    "candidateAddress": "",
+    "candidatePhone": "",
+    "candidateEmail": "",
+    "linkedin": "mazen-bahgat",
+    "github": "mbahgatTech",
+    "portfolio": "mazenbahgat.com"
 }

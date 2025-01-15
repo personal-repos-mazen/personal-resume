@@ -3,39 +3,37 @@
         "sectionName": "Experience",
         "subheadings": [
             {
-                "company": "Amazon Web Services (AWS)",
-                "period": "June 2022 - September 2023",
-                "position": "Cloud Solutions Engineer",
-                "location": "Seattle, WA",
+                "company": "Microsoft",
+                "period": "May 2023 - August 2023",
+                "position": "Software Engineering Intern",
+                "location": "Redmond, WA",
                 "techstack": "",
                 "resumeItems": [
-                    "Led the design and implementation of a high-performance serverless architecture for multi-region deployment, reducing latency by \\textbf{30%} and improving user engagement by \\textbf{25%}.",
-                    "Enhanced security compliance by automating access policies and deploying infrastructure monitoring with AWS CloudTrail and GuardDuty, resulting in a \\textbf{70%} reduction in security incident response time.",
-                    "Built a customer analytics dashboard using Amazon QuickSight and Redshift, enabling real-time insights that improved customer satisfaction scores by \\textbf{15%}."
+                    "Delivered engineering excellence compliance requirements through OpenTelemetry Sdk migration, eliminating security risks posed by as-is dependencies.",
+                    "Architected and delivered an upstream system integration between data center lease acquisition applications, reducing manual business processes' costs by \\textbf{50\\%}."
                 ]
             },
             {
-                "company": "Tesla",
-                "period": "September 2021 - May 2022",
-                "position": "Embedded Systems Developer",
-                "location": "Palo Alto, CA",
+                "company": "NCR",
+                "period": "September 2022 - April 2023",
+                "position": "Back-End Developer",
+                "location": "Waterloo, ON",
                 "techstack": "",
                 "resumeItems": [
-                    "Developed and optimized firmware for in-vehicle infotainment systems, improving media response time by \\textbf{40%} and minimizing system crashes.",
-                    "Designed and tested secure Over-the-Air (OTA) update functionality, increasing update reliability by \\textbf{85%} and reducing downtime during software patches.",
-                    "Collaborated closely with the QA team to establish a dynamic test suite for embedded systems, accelerating test coverage by \\textbf{30%} and reducing regression issues."
+                    "Designed and implemented a set of containerized banking micro-services using in-house tools with YAML, Spring boot and NodeJS.",
+                    "Improved the efficiency of client-hardware communication on Teller Cash Recycler machines by \\textbf{66\\%}."
                 ]
             },
             {
-                "company": "Spotify",
-                "period": "January 2021 - August 2021",
-                "position": "Software Engineer, Machine Learning",
-                "location": "New York, NY",
+                "company": "Scales Nature Park",
+                "period": "May 2022 - August 2022",
+                "position": "Full Stack Application Developer",
+                "location": "Oro-Medonte, ON",
                 "techstack": "",
                 "resumeItems": [
-                    "Engineered a recommendation system using collaborative filtering and neural networks, increasing monthly user retention by \\textbf{20%}.",
-                    "Implemented A/B testing frameworks that enabled rapid experimentation across recommendation models, reducing testing time by \\textbf{50%}.",
-                    "Optimized data pipelines for real-time processing of 1M+ audio streams daily using Apache Kafka and Spark, enhancing processing speed by \\textbf{60%}."
+                    "Led a small team through the design and development of mobile and desktop applications in the “MERN” stack for wildlife conservation purposes.",
+                    "Coordinated with management and the employee user base to gather application feature requirements.",
+                    "Migrated past wildlife conservation data from google sheets to a new Mongo database."
                 ]
             }
         ]
@@ -50,9 +48,11 @@
                 "location": "",
                 "techstack": "",
                 "resumeItems": [
-                    "Expert in cloud infrastructure and containerization, with strong proficiency in AWS, Docker, and Kubernetes.",
-                    "Exceptional analytical and troubleshooting abilities, adept at diagnosing complex issues in distributed systems.",
-                    "Effective communicator with experience in cross-functional collaboration and stakeholder management."
+                    "Strong knowledge of software engineering concepts, design, testing, and implementation.",
+                    "Self-motivated, quick learner, and able to adapt to modern technologies, concepts, and situations.",
+                    "Excellent analytical and problem-solving skills proven through self-led projects.",
+                    "Effective communication, interpersonal and teamwork skills.",
+                    "Fluent in English and Arabic."
                 ]
             }
         ]
@@ -67,10 +67,9 @@
                 "location": "",
                 "techstack": "",
                 "resumeItems": [
-                    "\\textbf{Languages}: Python, JavaScript, Java, C++, Go, SQL, TypeScript.",
-                    "\\textbf{Frameworks and Libraries}: Django, Flask, React, Node.js, TensorFlow, PyTorch.",
-                    "\\textbf{Tools and Platforms}: AWS, GCP, Docker, Kubernetes, Jenkins, Terraform.",
-                    "\\textbf{Techniques}: Machine Learning, Data Engineering, Cloud Architecture, Distributed Systems, Microservices."
+                    "\\textbf{Languages}: C, C\\# (.NET), Java (Spring Boot), JavaScript (NodeJS, NextJS, React Native), Python, Batch, YAML, JSON, XML.",
+                    "\\textbf{Tools}: MongoDB, Event-Driven (Kafka, Azure Service Bus), Power Platform, REST APIs, Docker, Azure.",
+                    "\\textbf{Techniques}: System Architecture, Software Integration, SOLID Design Patterns, Optimization, Agile."
                 ]
             }
         ]
@@ -79,25 +78,36 @@
         "sectionName": "Projects",
         "subheadings": [
             {
-                "company": "Real-Time Traffic Monitoring System",
-                "period": "October 2022 - February 2023",
+                "company": "Weather Forecast Web Application",
+                "period": "April 2022",
                 "position": "",
                 "location": "",
-                "techstack": "Python, AWS",
+                "techstack": "NodeJS, HTML, CSS, JavaScript",
                 "resumeItems": [
-                    "Developed a traffic monitoring system using computer vision algorithms in Python, achieving \\textbf{95%} accuracy in vehicle detection.",
-                    "Deployed the system on AWS with Lambda and S3 for scalable image processing, reducing processing costs by \\textbf{40%}."
+                    "Utilized IP-API to get the client's location and OpenWeather API to fetch the client's weather forecast.",
+                    "Designed and integrated a responsive web-based GUI, served using a NodeJS server."
                 ]
             },
             {
-                "company": "Personal Finance Tracker",
-                "period": "July 2021 - September 2021",
+                "company": "SVG Parser Web Application",
+                "period": "January 2022 - March 2022",
                 "position": "",
                 "location": "",
-                "techstack": "React Native, Firestore",
+                "techstack": "C, HTML, CSS, JavaScript",
                 "resumeItems": [
-                    "Created a mobile application in React Native for tracking personal finances, with secure data storage using Firebase Authentication and Firestore.",
-                    "Integrated data visualization features to provide users with monthly spending insights, improving financial literacy for over 500 users."
+                    "Designed and employed an interactive web GUI that exchanges user data with the server.",
+                    "Implemented SVG parsing libraries written in C, adhering to API specifications."
+                ]
+            },
+            {
+                "company": "Automated Course Registration",
+                "period": "May 2021 - December 2021",
+                "position": "",
+                "location": "",
+                "techstack": "Python, Selenium",
+                "resumeItems": [
+                    "Developed an automation web bot using the Selenium API with Python.",
+                    "Automated the registration of planned courses on the University of Guelph website."
                 ]
             }
         ]
@@ -106,15 +116,12 @@
         "sectionName": "Education",
         "subheadings": [
             {
-                "company": "University of California, Berkeley",
-                "period": "September 2017 - May 2021",
-                "position": "Bachelor of Science in Computer Science",
-                "location": "Berkeley, CA",
+                "company": "University of Guelph",
+                "period": "September 2020 - Present",
+                "position": "Bachelor of Computing, Honors Co-op Major Software Engineering Minor Marketing",
+                "location": "Guelph, ON",
                 "techstack": "",
-                "resumeItems": [
-                    "Graduated with honors, GPA: 3.8/4.0",
-                    "Relevant coursework: Data Structures and Algorithms, Machine Learning, Cloud Computing, Distributed Systems"
-                ]
+                "resumeItems": []
             }
         ]
     }
