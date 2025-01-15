@@ -54,6 +54,19 @@ The resume sections are defined in the [sections.json](./config/sections.json) f
 
 > These fields are also optional, except for a first or last name.
 
+### Embedding LaTeX
+
+You might want to change the formatting of some text on your resume like bolding important figures or changing color of some parts of the content. 
+
+For such purposes, you can wrap the text in LaTeX embeddings within your JSON configs. e.g. ```json "company": "\\textcolor{red}{Spotify}"```.
+
+To fascilitate the above, the following characters aren't escaped in the script `\{}`. If you need to use them in your resume you can do the following:
+
+- `\`: ```json\\textbackslash{}```
+- `{`: ```json\\{```
+- `}`: ```json\\}```
+
+
 ## Python Script
 
 [generate_resume.py](./src/generate_resume.py) is the main script that glues all the components and their respective configurations together. It iterates over the configuration files, translates them into variable definitions in LaTeX, and adds all the components to one single file called `resume.tex`. 
