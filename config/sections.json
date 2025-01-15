@@ -9,7 +9,7 @@
                 "location": "Redmond, WA",
                 "resumeItems": [
                     "Delivered engineering excellence compliance requirements through OpenTelemetry Sdk migration, eliminating security risks posed by as-is dependencies.",
-                    "Architected and delivered an upstream system integration between data center lease acquisition applications, reducing manual business processes' costs by \\textbf{50\\%}."
+                    "Architected and delivered an upstream system integration between data center lease acquisition applications, reducing manual business processes' costs by \\textbf{50%}."
                 ]
             },
             {
@@ -19,7 +19,7 @@
                 "location": "Waterloo, ON",
                 "resumeItems": [
                     "Designed and implemented a set of containerized banking micro-services using in-house tools with YAML, Spring boot and NodeJS.",
-                    "Improved the efficiency of client-hardware communication on Teller Cash Recycler machines by \\textbf{66\\%}."
+                    "Improved the efficiency of client-hardware communication on Teller Cash Recycler machines by \\textbf{66%}."
                 ]
             },
             {
@@ -54,7 +54,7 @@
         "subheadings": [
             {
                 "resumeItems": [
-                    "\\textbf{Languages}: C, C\\# (.NET), Java (Spring Boot), JavaScript (NodeJS, NextJS, React Native), Python, Batch, YAML, JSON, XML.",
+                    "\\textbf{Languages}: C, C# (.NET), Java (Spring Boot), JavaScript (NodeJS, NextJS, React Native), Python, Batch, YAML, JSON, XML.",
                     "\\textbf{Tools}: MongoDB, Event-Driven (Kafka, Azure Service Bus), Power Platform, REST APIs, Docker, Azure.",
                     "\\textbf{Techniques}: System Architecture, Software Integration, SOLID Design Patterns, Optimization, Agile."
                 ]
@@ -100,7 +100,7 @@
                 "company": "University of Guelph",
                 "period": "September 2020 - Present",
                 "position": "Bachelor of Computing, Honors Co-op Major Software Engineering Minor Marketing",
-                "location": "Guelph, ON",
+                "location": "Guelph, ON"
             }
         ]
     }
