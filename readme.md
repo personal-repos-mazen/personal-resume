@@ -35,7 +35,7 @@ The resume sections are defined in the [sections.json](./config/sections.json) f
 ]
 ```
 
-If any of the fields are not required, they need to be defined and can be kept empty. 
+> All fields are optional allowing for section structure variability. E.g. Refer to `Highlights of Qualifications` section in [samples/john-doe.pdf](samples/john-doe.pdf).
 
 [heading.json](./config/heading.json) is kept separate to define the candidate's information separate from the rest of the content. Following format is required:
 
@@ -51,6 +51,9 @@ If any of the fields are not required, they need to be defined and can be kept e
     "portfolio": "portfolio.me"
 }
 ```
+
+> These fields are also optional, except for a first or last name.
+
 ## Python Script
 
 [generate_resume.py](./src/generate_resume.py) is the main script that glues all the components and their respective configurations together. It iterates over the configuration files, translates them into variable definitions in LaTeX, and adds all the components to one single file called `resume.tex`. 
