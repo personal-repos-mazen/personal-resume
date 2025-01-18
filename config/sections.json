@@ -19,7 +19,7 @@
                 "location": "Waterloo, ON",
                 "resumeItems": [
                     "Fascilitated a robust suite of collaboration services between remote tellers and clients by developing a proxy server that serves encrypted cloud static content.",
-                    "Optimized teller UX to empower bank tellers to execute pivotal operations like secure money transfers and interbranch chash shipments by implementing real-time data streaming through WebSockets and reduced latency by \\textbf{99.9%}."
+                    "Optimized bank teller UX to empower clients to execute pivotal operations, like secure money transfers and interbranch chash shipments, by implementing real-time data streaming through WebSockets and reducing latency by \\textbf{99.9%}."
                 ]
             },
             {
