@@ -1,5 +1,15 @@
 [
     {
+        "sectionName": "Professional Summary",
+        "subheadings": [
+            {
+                "rawText": [
+                    "Proficient software engineer with \\textbf{2+} years of experience and expertise in core design principles, testing, and implementation. Adaptable and self-driven, demonstrating the capacity to rapidly acquire and implement new technologies and methodologies. Applied strong technical and collaborative skills through the completion of \\textbf{10+} self-initiated projects."
+                ]
+            }
+        ]
+    },
+    {
         "sectionName": "Experience",
         "subheadings": [
             {
@@ -39,7 +49,7 @@
                 "location": "Waterloo, ON",
                 "resumeItems": [
                     "Built containerized banking microservices using Spring Boot, and NodeJS, improving scalability and deployment efficiency.",
-                    "Optimized client-hardware communication for Teller Cash Recycler machines, increasing transaction efficiency by \\textbf{66%}."
+                    "Optimized client-hardware communication for Teller Cash Recycler machines, reducing transaction processing by \\textbf{66%}."
                 ]
             },
             {
@@ -50,19 +60,6 @@
                 "resumeItems": [
                     "Directed a team to design and develop MERN stack-based mobile and desktop applications, supporting wildlife conservation initiatives.",
                     "Collaborated with management and end-users to gather and prioritize application feature requirements, ensuring alignment with conservation goals."
-                ]
-            }
-        ]
-    },
-    {
-        "sectionName": "Highlights of Qualifications",
-        "subheadings": [
-            {
-                "resumeItems": [
-                    "Proficient in software engineering principles, including design, testing, and implementation.",
-                    "Self-driven and adaptable, with a proven ability to quickly learn and apply modern technologies and methodologies.",
-                    "Demonstrated strong analytical and problem-solving skills through the successful execution of self-initiated projects.",
-                    "Skilled in communication, collaboration, and teamwork, with experience working in cross-functional and diverse teams."
                 ]
             }
         ]
