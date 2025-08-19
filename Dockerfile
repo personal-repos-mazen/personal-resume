@@ -1,4 +1,4 @@
-FROM drpsychick/texlive-pdflatex:latest
+FROM drpsychick/texlive-pdflatex:alpine-3.17
 
 WORKDIR /usr/local/resume
 
