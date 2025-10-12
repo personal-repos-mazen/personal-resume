@@ -47,10 +47,10 @@
                 ]
             },
             {
-                "company": "Spotify",
-                "period": "January 2021 - August 2021",
-                "position": "Software Engineer, Machine Learning",
-                "location": "New York, NY",
+                "company": "NCR",
+                "period": "September 2022 - April 2023",
+                "position": "Back-End Developer",
+                "location": "Waterloo, ON",
                 "resumeItems": [
                     "Modernized legacy systems by integrating OpenTelemetry SDK, ensuring compliance with engineering excellence standards and mitigating security vulnerabilities.",
                     "Streamlined data center lease workflows by designing upstream integrations, automating processes, and cutting manual costs by \\textbf{50%}."
@@ -85,9 +85,9 @@
         "sectionName": "Projects",
         "subheadings": [
             {
-                "company": "Real-Time Traffic Monitoring System",
-                "period": "October 2022 - February 2023",
-                "techstack": "Python, AWS",
+                "company": "Plant Together",
+                "period": "January 2025 - April 2025",
+                "techstack": "React, NodeJS, PSQL, Firebase, Socket.io",
                 "resumeItems": [
                     "Empowered \\textbf{50+} architects to collaborate on PlantUML diagrams in real-time via a WebSocket-powered solution.",
                     "Secured architectural assets with Firebase authentication, delivering robust access control and data integrity."
@@ -99,14 +99,10 @@
         "sectionName": "Education",
         "subheadings": [
             {
-                "company": "University of California, Berkeley",
-                "period": "September 2017 - May 2021",
-                "position": "Bachelor of Science in Computer Science",
-                "location": "Berkeley, CA",
-                "resumeItems": [
-                    "Graduated with honors, GPA: 3.8/4.0",
-                    "Relevant coursework: Data Structures and Algorithms, Machine Learning, Cloud Computing, Distributed Systems"
-                ]
+                "company": "University of Guelph",
+                "period": "September 2020 - April 2025",
+                "position": "Bachelor of Computing, Honors Co-op Major Software Engineering Minor Marketing",
+                "location": "Guelph, ON"
             }
         ]
     }
