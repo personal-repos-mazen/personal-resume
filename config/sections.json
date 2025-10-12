@@ -4,7 +4,7 @@
         "subheadings": [
             {
                 "rawText": [
-                    "Proficient software engineer with \\textbf{2+} years of experience and expertise in core design principles, testing, and implementation. Adaptable and self-driven, demonstrating the capacity to rapidly acquire and implement new technologies and methodologies. Applied strong technical and collaborative skills through the completion of \\textbf{10+} self-initiated projects."
+                    "Proficient software engineer with \\textbf{2+} years of experience, excelling in design principles, rigorous testing, and innovative implementation. Adaptable and self-driven, demonstrating the capacity to rapidly acquire and implement new technologies and methodologies. Applied strong technical and collaborative skills through the completion of \\textbf{10+} self-initiated projects."
                 ]
             }
         ]
@@ -14,32 +14,36 @@
         "subheadings": [
             {
                 "company": "Microsoft",
-                "period": "May 2024 - July 2024",
-                "position": "Software Engineering Intern",
+                "period": "August 2025 - Present",
+                "position": "Software Engineer",
                 "location": "Redmond, WA",
                 "resumeItems": [
-                    "Engineered event-driven features in Dynamics CRM to streamline data center lease acquisition workflows, improving transparency and reducing operational costs by \\textbf{75%}.",
-                    "Transitioned service authentication from client secrets to Managed Service Identity (MSI), enhancing security and reducing maintenance overhead by automating credential management."
-                ]
-            },
-            {
-                "company": "NCR Voyix",
-                "period": "January 2024 - April 2024",
-                "position": "Software Developer",
-                "location": "Waterloo, ON",
-                "resumeItems": [
-                    "Developed a proxy server facilitating secure collaboration between remote tellers and clients, serving encrypted cloud static content to \\textbf{600+} financial institution branches and \\textbf{1000+} tellers.",
-                    "Optimized bank teller UX, empowering clients to execute pivotal operations, like secure money transfers and interbranch chash shipments, by implementing real-time data streaming through WebSockets and reducing latency by \\textbf{99.9%}."
+                    "Operationalized GPU cluster deployment by bridging stakeholder communication and driving upstream and downstream integrations.",
+                    "Built AI Foundry multi-agent systems, leveraging MCP to orchestrate cloud services, boosting scalability by \\textbf{40%}."
                 ]
             },
             {
                 "company": "Microsoft",
-                "period": "May 2023 - August 2023",
+                "period": "May 2024 - July 2024",
                 "position": "Software Engineering Intern",
                 "location": "Redmond, WA",
                 "resumeItems": [
-                    "Migrated legacy dependencies to OpenTelemetry SDK, ensuring compliance with engineering excellence standards and mitigating security vulnerabilities.",
-                    "Designed and implemented upstream system integration for data center lease acquisition applications, automating workflows and reducing manual processing costs by \\textbf{50%}."
+                    "Engineered event-driven features in Dynamics CRM, transforming data center lease acquisition workflows to boost transparency and slash operational costs by \\textbf{75%}.",
+                    "Automated credential management in service authentication by transitioning to Managed Service Identity (MSI), fortifying security and minimizing maintenance overhead."
+                ]
+            },
+            {
+                "company": "NCR Voyix",
+                "period": "January 2024 - April 2024"
+            },
+            {
+                "period": "September 2022 - April 2023",
+                "position": "Software Developer",
+                "location": "Waterloo, ON",
+                "resumeItems": [
+                    "Architected containerized banking microservices with Spring Boot and NodeJS, enhancing scalability and deployment agility.",
+                    "Devised a secure proxy server enabling encrypted client-teller collaboration for \\textbf{600+} branches and \\textbf{1000+} tellers, ensuring seamless operations.",
+                    "Elevated bank teller UX by implementing real-time WebSocket data streaming, reducing latency by \\textbf{99.9%} and empowering critical operations like secure money transfers and interbranch cash shipments."
                 ]
             },
             {
@@ -48,8 +52,8 @@
                 "position": "Back-End Developer",
                 "location": "Waterloo, ON",
                 "resumeItems": [
-                    "Built containerized banking microservices using Spring Boot, and NodeJS, improving scalability and deployment efficiency.",
-                    "Optimized client-hardware communication for Teller Cash Recycler machines, reducing transaction processing by \\textbf{66%}."
+                    "Modernized legacy systems by integrating OpenTelemetry SDK, ensuring compliance with engineering excellence standards and mitigating security vulnerabilities.",
+                    "Streamlined data center lease workflows by designing upstream integrations, automating processes, and cutting manual costs by \\textbf{50%}."
                 ]
             },
             {
@@ -58,8 +62,8 @@
                 "position": "Full Stack Application Developer",
                 "location": "Oro-Medonte, ON",
                 "resumeItems": [
-                    "Directed a team to design and develop MERN stack-based mobile and desktop applications, supporting wildlife conservation initiatives.",
-                    "Collaborated with management and end-users to gather and prioritize application feature requirements, ensuring alignment with conservation goals."
+                    "Led the development of MERN stack applications, advancing wildlife conservation through innovative mobile and desktop solutions.",
+                    "Collaborated with stakeholders to prioritize features, ensuring alignment with conservation objectives and user needs."
                 ]
             }
         ]
@@ -69,9 +73,10 @@
         "subheadings": [
             {
                 "resumeItems": [
-                    "\\textbf{Languages}: C, C# (.NET), Java (Spring Boot), TypeScript (NodeJS, NextJS, React Native), Python, Shell Script.",
-                    "\\textbf{Tools}: MongoDB, Event-Driven (Kafka, Azure Service Bus), Firebase, Power Platform, REST APIs, Docker, Azure.",
-                    "\\textbf{Techniques}: Distributed Systems Architecture, SOLID Design Patterns, Database Sharding & Replication, Agile."
+                    "\\textbf{Languages}: Python, TypeScript (Node, Next), C, C# (.NET), Java (Spring Boot), SQL, Shell Script.",
+                    "\\textbf{Backend}: Distributed Systems Architecture, SOLID Design Patterns, database design & scale, OAuth, RBAC.",
+                    "\\textbf{Tools and Frameworks}: Event-Driven (Kafka, Azure Service Bus), Firebase, Power Platform, REST APIs, MCP.",
+                    "\\textbf{DevOps and Cloud}: CI/CD Pipelines (Jenkins, ADO, GH Actions), IaC (Bicep, ARM), Kubernetes, Azure, GCP."
                 ]
             }
         ]
@@ -84,17 +89,8 @@
                 "period": "January 2025 - April 2025",
                 "techstack": "React, NodeJS, PSQL, Firebase, Socket.io",
                 "resumeItems": [
-                    "Empowered \\textbf{50+} software architects to collaborate on PlantUML diagrams in real-time using a WebSocket solution.",
-                    "Secured client architecture artifacts with a robust access control system powered by Firebase authentication."
-                ]
-            },
-            {
-                "company": "SVG Parser Web Application",
-                "period": "January 2022 - March 2022",
-                "techstack": "C, HTML, CSS, JavaScript",
-                "resumeItems": [
-                    "Developed an interactive web GUI to facilitate seamless data exchange between users and the server.",
-                    "Built core SVG parsing library in C, adhering to strict API specifications and maintaining \\textbf{zero} memory leaks."
+                    "Empowered \\textbf{50+} architects to collaborate on PlantUML diagrams in real-time via a WebSocket-powered solution.",
+                    "Secured architectural assets with Firebase authentication, delivering robust access control and data integrity."
                 ]
             }
         ]
