@@ -47,10 +47,10 @@
                 ]
             },
             {
-                "company": "NCR",
-                "period": "September 2022 - April 2023",
-                "position": "Back-End Developer",
-                "location": "Waterloo, ON",
+                "company": "Microsoft",
+                "period": "May 2023- August 2023",
+                "position": "Software Engineering Intern",
+                "location": "Redmond, WA",
                 "resumeItems": [
                     "Modernized legacy systems by integrating OpenTelemetry SDK, ensuring compliance with engineering excellence standards and mitigating security vulnerabilities.",
                     "Streamlined data center lease workflows by designing upstream integrations, automating processes, and cutting manual costs by \\textbf{50%}."
