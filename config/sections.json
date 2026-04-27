@@ -1,15 +1,5 @@
 [
     {
-        "sectionName": "Professional Summary",
-        "subheadings": [
-            {
-                "rawText": [
-                    "Proficient software engineer with \\textbf{2+} years of experience, excelling in design principles, rigorous testing, and innovative implementation. Adaptable and self-driven, demonstrating the capacity to rapidly acquire and implement new technologies and methodologies. Applied strong technical and collaborative skills through the completion of \\textbf{10+} self-initiated projects."
-                ]
-            }
-        ]
-    },
-    {
         "sectionName": "Experience",
         "subheadings": [
             {
@@ -18,8 +8,8 @@
                 "position": "Software Engineer",
                 "location": "Redmond, WA",
                 "resumeItems": [
-                    "Operationalized GPU cluster deployment by bridging stakeholder communication and driving upstream and downstream integrations.",
-                    "Built AI Foundry multi-agent systems, leveraging MCP to orchestrate cloud services, boosting scalability by \\textbf{40%}."
+                    "Built dual portals for GPU cluster deployment coordination, bridging lease providers and internal teams through file sharing and task management, with upstream cluster design integrations and downstream lifecycle tracking.",
+                    "Engineered a data platform enabling rapid mass onboarding of \\textbf{29,000+} site operators, turning physical site constraints into actionable AI rack deployment roadmaps."
                 ]
             },
             {
@@ -28,22 +18,22 @@
                 "position": "Software Engineering Intern",
                 "location": "Redmond, WA",
                 "resumeItems": [
-                    "Engineered event-driven features in Dynamics CRM, transforming data center lease acquisition workflows to boost transparency and slash operational costs by \\textbf{75%}.",
-                    "Automated credential management in service authentication by transitioning to Managed Service Identity (MSI), fortifying security and minimizing maintenance overhead."
+                    "Developed event-driven features in Dynamics CRM, transforming data center lease acquisition workflows to boost transparency and slash operational costs by \\textbf{75%}.",
+                    "Automated credential management in service authentication by transitioning to Azure Managed Service Identity (MSI), fortifying security and minimizing maintenance overhead."
                 ]
             },
             {
                 "company": "NCR Voyix",
-                "period": "January 2024 - April 2024"
+                "period": "January 2024 - April 2024 &"
             },
             {
                 "period": "September 2022 - April 2023",
                 "position": "Software Developer",
                 "location": "Waterloo, ON",
                 "resumeItems": [
-                    "Architected containerized banking microservices with Spring Boot and NodeJS, enhancing scalability and deployment agility.",
-                    "Devised a secure proxy server enabling encrypted client-teller collaboration for \\textbf{600+} branches and \\textbf{1000+} tellers, ensuring seamless operations.",
-                    "Elevated bank teller UX by implementing real-time WebSocket data streaming, reducing latency by \\textbf{99.9%} and empowering critical operations like secure money transfers and interbranch cash shipments."
+                    "Architected containerized banking microservices with Spring Boot and Node.js on Docker and Kubernetes, enabling modular deployments adaptable to each financial institution's requirements.",
+                    "Established a secure proxy server enabling encrypted client-teller collaboration for \\textbf{600+} branches and \\textbf{1000+} tellers, ensuring seamless operations.",
+                    "Replaced \\textbf{60-second} HTTP polling with real-time WebSocket data streaming, cutting data refresh latency to \\textbf{<100ms} and enabling critical operations like secure money transfers and interbranch cash shipments."
                 ]
             },
             {
@@ -52,8 +42,8 @@
                 "position": "Software Engineering Intern",
                 "location": "Redmond, WA",
                 "resumeItems": [
-                    "Modernized legacy systems by integrating OpenTelemetry SDK, ensuring compliance with engineering excellence standards and mitigating security vulnerabilities.",
-                    "Streamlined data center lease workflows by designing upstream integrations, automating processes, and cutting manual costs by \\textbf{50%}."
+                    "Migrated \\textbf{6} services to OpenTelemetry SDK, modernizing legacy observability to enable distributed tracing, metrics collection, and up-to-date security compliance.",
+                    "Eliminated manual data entry in data center lease execution workflows by building event-driven Service Bus upstream integrations, reducing end-to-end processing from \\textbf{1,800 to 900} hours annually."
                 ]
             },
             {
@@ -62,8 +52,8 @@
                 "position": "Full Stack Application Developer",
                 "location": "Oro-Medonte, ON",
                 "resumeItems": [
-                    "Led the development of MERN stack applications, advancing wildlife conservation through innovative mobile and desktop solutions.",
-                    "Collaborated with stakeholders to prioritize features, ensuring alignment with conservation objectives and user needs."
+                    "Built an offline-first MERN wildlife and environmental data collection application for \\textbf{50+} field researchers in low-connectivity environments, syncing locally-stored records to MongoDB upon reconnection.",
+                    "Designed a role-based admin dashboard replacing Excel workflows, giving administrators centralized visibility into wildlife observations, measurements, and environmental records across all field teams."
                 ]
             }
         ]
@@ -73,9 +63,9 @@
         "subheadings": [
             {
                 "resumeItems": [
-                    "\\textbf{Languages}: Python, TypeScript (Node, Next), C, C# (.NET), Java (Spring Boot), SQL, Shell Script.",
-                    "\\textbf{Backend}: Distributed Systems Architecture, SOLID Design Patterns, database design & scale, OAuth, RBAC.",
-                    "\\textbf{Tools and Frameworks}: Event-Driven (Kafka, Azure Service Bus), Firebase, Power Platform, REST APIs, MCP.",
+                    "\\textbf{Languages}: C# (.NET), TypeScript (Node, Next), Python, C, Java (Spring Boot), SQL, Shell Script.",
+                    "\\textbf{Backend}: Distributed Systems Architecture, SOLID Principles, Database Design & Scale, OIDC, RBAC, JWT.",
+                    "\\textbf{Tools and Frameworks}: Event-Driven (Kafka, Azure Service Bus), Firebase, Power Platform, MCP, WebSockets.",
                     "\\textbf{DevOps and Cloud}: CI/CD Pipelines (Jenkins, ADO, GH Actions), IaC (Bicep, ARM), Kubernetes, Azure, GCP."
                 ]
             }
@@ -87,10 +77,11 @@
             {
                 "company": "Plant Together",
                 "period": "January 2025 - April 2025",
-                "techstack": "React, NodeJS, PSQL, Firebase, Socket.io",
+                "techstack": "React, NodeJS, PSQL, Firebase, Socket.io, Redis",
                 "resumeItems": [
                     "Empowered \\textbf{50+} architects to collaborate on PlantUML diagrams in real-time via a WebSocket-powered solution.",
-                    "Secured architectural assets with Firebase authentication, delivering robust access control and data integrity."
+                    "Designed a Redis write-buffer layer to absorb concurrent diagram edits during live sessions, flushing persisted state to PostgreSQL and preventing write contention under simultaneous collaboration.",
+                    "Scoped diagram room access to creators and invited members using Firebase Authentication, enforcing private collaboration boundaries at the session level."
                 ]
             }
         ]
