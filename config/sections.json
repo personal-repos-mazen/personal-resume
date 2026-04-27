@@ -1,15 +1,5 @@
 [
     {
-        "sectionName": "Professional Summary",
-        "subheadings": [
-            {
-                "rawText": [
-                    "Software Engineer at Microsoft building AI infrastructure and data center tooling across cloud-native and event-driven systems, with a background in full-stack development and distributed systems."
-                ]
-            }
-        ]
-    },
-    {
         "sectionName": "Experience",
         "subheadings": [
             {
@@ -19,7 +9,7 @@
                 "location": "Redmond, WA",
                 "resumeItems": [
                     "Built dual portals for GPU cluster deployment coordination, bridging lease providers and internal teams through file sharing and task management, with upstream cluster design integrations and downstream lifecycle tracking.",
-                    "Built AI Foundry multi-agent systems, leveraging MCP to orchestrate cloud services, boosting scalability by \\textbf{40%}."
+                    "Engineered a data platform enabling rapid mass onboarding of 29,000+ site operators, turning physical site constraints into actionable AI rack deployment decisions."
                 ]
             },
             {
@@ -28,8 +18,8 @@
                 "position": "Software Engineering Intern",
                 "location": "Redmond, WA",
                 "resumeItems": [
-                    "Engineered event-driven features in Dynamics CRM, transforming data center lease acquisition workflows to boost transparency and slash operational costs by \\textbf{75%}.",
-                    "Automated credential management in service authentication by transitioning to Managed Service Identity (MSI), fortifying security and minimizing maintenance overhead."
+                    "Developed event-driven features in Dynamics CRM, transforming data center lease acquisition workflows to boost transparency and slash operational costs by \\textbf{75%}.",
+                    "Automated credential management in service authentication by transitioning to Azure Managed Service Identity (MSI), fortifying security and minimizing maintenance overhead."
                 ]
             },
             {
@@ -42,8 +32,8 @@
                 "location": "Waterloo, ON",
                 "resumeItems": [
                     "Architected containerized banking microservices with Spring Boot and Node.js on Docker and Kubernetes, enabling modular deployments adaptable to each financial institution's requirements.",
-                    "Engineered a secure proxy server enabling encrypted client-teller collaboration for \\textbf{600+} branches and \\textbf{1000+} tellers, ensuring seamless operations.",
-                    "Replaced \\textbf{60-second} HTTP polling with real-time WebSocket data streaming, cutting data refresh latency to \\textbf{near-instant} and enabling critical operations like secure money transfers and interbranch cash shipments."
+                    "Established a secure proxy server enabling encrypted client-teller collaboration for \\textbf{600+} branches and \\textbf{1000+} tellers, ensuring seamless operations.",
+                    "Replaced \\textbf{60-second} HTTP polling with real-time WebSocket data streaming, cutting data refresh latency to \\textbf{<100ms} and enabling critical operations like secure money transfers and interbranch cash shipments."
                 ]
             },
             {
@@ -73,8 +63,8 @@
         "subheadings": [
             {
                 "resumeItems": [
-                    "\\textbf{Languages}: Python, TypeScript (Node, Next), C, C# (.NET), Java (Spring Boot), SQL, Shell Script.",
-                    "\\textbf{Backend}: Distributed Systems Architecture, SOLID Principles, database design & scale, OIDC, RBAC, JWT.",
+                    "\\textbf{Languages}: C# (.NET), TypeScript (Node, Next), Python, C, Java (Spring Boot), SQL, Shell Script.",
+                    "\\textbf{Backend}: Distributed Systems Architecture, SOLID Principles, Database Design & Scale, OIDC, RBAC, JWT.",
                     "\\textbf{Tools and Frameworks}: Event-Driven (Kafka, Azure Service Bus), Firebase, Power Platform, MCP, WebSockets.",
                     "\\textbf{DevOps and Cloud}: CI/CD Pipelines (Jenkins, ADO, GH Actions), IaC (Bicep, ARM), Kubernetes, Azure, GCP."
                 ]
@@ -90,7 +80,8 @@
                 "techstack": "React, NodeJS, PSQL, Firebase, Socket.io, Redis",
                 "resumeItems": [
                     "Empowered \\textbf{50+} architects to collaborate on PlantUML diagrams in real-time via a WebSocket-powered solution.",
-                    "Secured architectural assets with Firebase authentication, delivering robust access control and data integrity."
+                    "Designed a Redis write-buffer layer to absorb concurrent diagram edits during live sessions, flushing persisted state to PostgreSQL and preventing write contention under simultaneous collaboration.",
+                    "Scoped diagram room access to creators and invited members using Firebase Authentication, enforcing private collaboration boundaries at the session level."
                 ]
             }
         ]
